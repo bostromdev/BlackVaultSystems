@@ -1,0 +1,1 @@
+**BlackVaultSystems** is a high-security modular platform featuring PGP messaging, a QR-based crypto escrow wallet, and a realistic admin decoy panel that traps intruders in endless fake logic. Fully functional, polished, and built for developers and security-focused environments.
