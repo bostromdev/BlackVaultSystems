@@ -1,42 +1,33 @@
-# 🛡️ BlackVaultSystems
+---
 
-**BlackVaultSystems** is a high-security, full-stack modular platform designed for encryption, simulation, and deception. It includes three independent but integrated systems: secure messaging, a crypto escrow wallet, and a developer-facing admin decoy environment. All modules are real, production-grade, and hardened — built for developers, security engineers, and high-stakes environments.
+## 📌 Project Status
+
+BlackVaultSystems is no longer under active development.  
+This repository is being preserved as a **completed conceptual and architectural demonstration** of secure system design, modular backend structure, and deception-based defense techniques.
+
+All modules reflect real implementation patterns and working logic at the time of development, but the system is not maintained or intended for production deployment in its current state.
 
 ---
 
-## 🔧 Included Modules
+## 🧠 Key Focus Areas Demonstrated
 
-### 1. `secure-messaging/`
-A secure, end-to-end encrypted communication system supporting:
-- PGP encryption (optional per message)
-- Auto-delete options: 30 seconds, 24 hours, monthly, bi-monthly
-- Fully stateless fallback if encryption is not used (message purging enforced)
-
-### 2. `escrow-wallet/`
-An escrow transaction UI with:
-- Dynamic wallet ID generation
-- QR code rendering and copy-to-clipboard
-- Backend-safe — no direct chain interaction
-- API-ready microservice (`/health`, `/wallet`) with optional QR integration
-
-### 3. `admin-decoy-system/`
-A high-interaction fake admin interface built to:
-- Mimic real dev tools, settings panels, and API dashboards
-- Mislead attackers into simulated environments
-- Appear interactive, logged-in, and reactive (but never connected to a real backend)
-- Waste time, create dead ends, and mirror live infrastructure
+- Modular full-stack architecture
+- PGP-based secure communication design
+- Stateless vs encrypted data handling strategies
+- Escrow-style transaction flow simulation
+- Deception engineering (high-interaction decoy systems)
+- Security-first development mindset
 
 ---
 
-## ⚙️ Usage
+## ⚠️ Disclaimer
 
-### Run Locally (with Python or Node.js)
-```bash
-cd <module-folder>
+This project is provided for **educational and demonstration purposes only**.  
+It should not be used in live environments without further security review, testing, and hardening.
 
-# For secure-messaging or escrow-wallet
-python3 app.py
+---
 
-# For admin-decoy-system
-npm install
-npm run dev
+## 📁 Archival Notice
+
+This repository has been archived and will not receive updates.  
+It remains available as part of a professional portfolio and reference for future system design work.
